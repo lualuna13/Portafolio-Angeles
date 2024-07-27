@@ -11,10 +11,13 @@
 */
 /* Aquí definimos las Custom properties */
 :root {
+  --lavanda: #6C80CA;
+  --azul-dark: #081956;
+  --sombra: #0D132C;
+  --blanco: #F1EDED;
   --negro: #393939;
   /* Tipografía */
   --tipo-principal: "Montserrat", sans-serif;
-  --tipo-secundaria: Verdana;
 }
 
 /* Las adaptamos al modo oscuro */
@@ -146,6 +149,7 @@ body {
   font-size: 100%;
   font-family: var(--tipo-principal);
   color: var(--negro);
+  background-color: var(--blanco);
   /* opcional */
   line-height: 1.4em;
   /* opcional */
