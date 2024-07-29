@@ -23,7 +23,7 @@
 /* Las adaptamos al modo oscuro */
 @media (prefers-color-scheme: dark) {
   :root {
-    --negro: #ececec;
+    --azul-oscuro: #0b0c52;
   }
 }
 /* Opcional */

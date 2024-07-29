@@ -25,7 +25,7 @@
 }
 
 .header-nav-item {
-  color: var(--negro);
+  background-color: var(--negro);
   padding: 12px 8px;
 }
 
@@ -40,6 +40,67 @@
   background-color: var(--lavanda);
 }
 
-.header-nav-item:hover {
+.header-nav-botton:hover {
   background-color: var(--negro);
+}
+
+/* Hero */
+
+.hero {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+}
+
+.hero-wrapper {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: bisque;
+}
+
+.hero-content {
+  padding: 24px;
+  background-color: blue;
+}
+
+.hero-title {
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 64px;
+  color: var(--negro);
+  margin-bottom: 24px;
+  background-color: burlywood;
+}
+
+.hero-paragraph {
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--negro);
+  margin-bottom: 24px;
+  background-color: chartreuse;
+}
+
+.hero-buttom {
+  width: fit-content;
+  color: var(--blanco);
+  font-weight: 900;
+  padding: 12px 24px;
+  border-radius: 12px;  
+  background-color: var(--lavanda);
+}
+
+.hero-buttom:hover {
+  background-color: var(--negro);
+}
+
+.hero-profile {
+  border-radius: 100%;
+  background-color: coral;
+}
+
+.hero-image {
+  border-radius: 100%;
+  background-color: lavender;
 }
