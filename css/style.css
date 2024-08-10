@@ -17,6 +17,7 @@
 }
 
 .header-brand {
+  width: 200px;
 }
 
 .header-nav {
@@ -32,6 +33,7 @@
 .header-nav-item:hover {
   color: var(--lavanda);
 }
+
 .header-nav-botton {
   color: var(--blanco);
   font-weight: 900;
@@ -50,19 +52,19 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: aqua;
 }
 
 .hero-wrapper {
   max-width: 1200px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  background-color: bisque;
 }
 
 .hero-content {
   padding: 24px;
-  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hero-title {
@@ -71,18 +73,18 @@
   line-height: 64px;
   color: var(--negro);
   margin-bottom: 24px;
-  background-color: burlywood;
 }
 
 .hero-paragraph {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 22px;
+  line-height: 32px;
   color: var(--negro);
   margin-bottom: 24px;
-  background-color: chartreuse;
+  hyphens: none;
 }
 
 .hero-buttom {
+  font-size: 28px;
   width: fit-content;
   color: var(--blanco);
   font-weight: 900;
@@ -96,11 +98,83 @@
 }
 
 .hero-profile {
-  border-radius: 100%;
-  background-color: coral;
+  display: flex;
+  justify-content: center;
+  padding: 24px;
 }
 
 .hero-image {
-  border-radius: 100%;
-  background-color: lavender;
+  width: 90%;
+  border-radius: 50%;
+  background-color: whitesmoke;
+}
+
+/* Main */
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.main-wrapper {
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Section Services */
+
+.services {
+}
+
+.services-content {
+  max-width: 600px;
+  margin-bottom: 24px;
+}
+
+.services-title {
+  font-size: 48px;
+  color: var(--negro);
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+
+.services-paragraph {
+  font-size: 20px;
+  line-height: 32px;
+  color: var(--negro);
+}
+
+.services-cards {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 24px;
+}
+
+.services.item {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  text-align: center;
+  border-radius: 24px;
+  background-color: lightpink;
+  box-shadow: 0 0 20px lightcoral;
+}
+
+.services-image {
+  align-self: center;
+  max-width: 180px;
+}
+
+.services-subtitle {
+  font-size: 32px;
+  font-weight: 900;
+  color: var(--negro);
+}
+
+.services-descripcion {
+  font-size: 18px;
+  line-height: 30px;
+  hyphens: none;
 }
